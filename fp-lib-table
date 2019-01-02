@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name holes)(type KiCad)(uri ${KIPRJMOD}/holes.pretty)(options "")(descr ""))
   (lib (name protoarea)(type KiCad)(uri ${KIPRJMOD}/protoarea.pretty)(options "")(descr ""))
+  (lib (name elemental)(type KiCad)(uri ${KIPRJMOD}/elemental.pretty)(options "")(descr ""))
 )

@@ -75,7 +75,7 @@ U 1 1 5C2E426E
 P 4800 2400
 F 0 "J2" H 4880 2442 50  0000 L CNN
 F 1 "Conn_01x03" H 4880 2351 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 4800 2400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4800 2400 50  0001 C CNN
 F 3 "~" H 4800 2400 50  0001 C CNN
 	1    4800 2400
 	1    0    0    -1  
@@ -929,7 +929,7 @@ U 1 1 5C39C42F
 P 4800 2050
 F 0 "J4" H 4880 2092 50  0000 L CNN
 F 1 "Conn_01x03" H 4880 2001 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 4800 2050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4800 2050 50  0001 C CNN
 F 3 "~" H 4800 2050 50  0001 C CNN
 	1    4800 2050
 	1    0    0    -1  

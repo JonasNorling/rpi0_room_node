@@ -257,7 +257,7 @@ Wire Wire Line
 Text Label 1650 2850 0    50   ~ 0
 ONEWIRE
 Wire Wire Line
-	4600 2400 4100 2400
+	4600 2400 4550 2400
 Text Label 4200 2400 0    50   ~ 0
 ONEWIRE
 $Comp
@@ -276,7 +276,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 2300 4450 2300
 Wire Wire Line
-	4450 2300 4450 1900
+	4450 2300 4450 1950
 Wire Wire Line
 	4450 1900 4100 1900
 Wire Wire Line
@@ -756,7 +756,7 @@ L Device:Antenna_Shield AE1
 U 1 1 5C322190
 P 9750 1900
 F 0 "AE1" H 9890 1941 50  0000 L CNN
-F 1 "Antenna_Shield" H 9890 1850 50  0000 L CNN
+F 1 "SMA" H 9890 1850 50  0000 L CNN
 F 2 "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount" H 9750 2000 50  0001 C CNN
 F 3 "~" H 9750 2000 50  0001 C CNN
 	1    9750 1900
@@ -776,7 +776,7 @@ F 3 "" H 9850 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 2100 9850 2200
+	9850 2100 9850 2150
 Wire Wire Line
 	9500 2900 9900 2900
 Text Label 9900 2900 2    50   ~ 0
@@ -929,4 +929,53 @@ Wire Notes Line
 	10600 1250 6400 1250
 Text Notes 6450 1350 0    50   ~ 0
 RF module
+$Comp
+L Connector_Generic:Conn_01x03 J4
+U 1 1 5C39C42F
+P 4800 2050
+F 0 "J4" H 4880 2092 50  0000 L CNN
+F 1 "Conn_01x03" H 4880 2001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 4800 2050 50  0001 C CNN
+F 3 "~" H 4800 2050 50  0001 C CNN
+	1    4800 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 1950 4450 1950
+Connection ~ 4450 1950
+Wire Wire Line
+	4450 1950 4450 1900
+Wire Wire Line
+	4550 2400 4550 2050
+Wire Wire Line
+	4550 2050 4600 2050
+Connection ~ 4550 2400
+Wire Wire Line
+	4550 2400 4100 2400
+Wire Wire Line
+	4600 2150 4500 2150
+Wire Wire Line
+	4500 2150 4500 2500
+Connection ~ 4500 2500
+$Comp
+L Device:Antenna_Shield AE2
+U 1 1 5C3ACD04
+P 9500 1900
+F 0 "AE2" H 9640 1941 50  0000 L CNN
+F 1 "U.FL" H 9640 1850 50  0000 L CNN
+F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 9500 2000 50  0001 C CNN
+F 3 "~" H 9500 2000 50  0001 C CNN
+	1    9500 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 2100 9500 2300
+Connection ~ 9500 2300
+Wire Wire Line
+	9600 2100 9600 2150
+Wire Wire Line
+	9600 2150 9850 2150
+Connection ~ 9850 2150
+Wire Wire Line
+	9850 2150 9850 2200
 $EndSCHEMATC

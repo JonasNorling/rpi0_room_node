@@ -28,6 +28,7 @@ Pinout:
  - 24 - SPI0 CE0 - chip select
  - 22 - BCM25 - DIO 0
  - 18 - BCM24 - DIO 1
+ - 16 - BCM23 - DIO 2
  - 15 - BCM22 - RST
 
 References:
@@ -46,6 +47,10 @@ References:
  - GPIO5 - data LED
  - GPIO24 - DIO5
  - GPIO25 - DIO0
+
+https://github.com/kobuki/RFM69OOK/blob/master/RFM69OOK.cpp
+https://github.com/SevenW/embapps/tree/master/ArduinoRFM69
+
 
 ### LEDs
 

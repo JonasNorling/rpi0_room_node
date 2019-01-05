@@ -999,67 +999,67 @@ RFM_DIO3
 Text Label 9900 2800 2    50   ~ 0
 RFM_DIO2
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP1
 U 1 1 5C3227E5
 P 9900 2500
-F 0 "TP?" V 9854 2688 50  0000 L CNN
+F 0 "TP1" V 9854 2688 50  0000 L CNN
 F 1 "TestPoint" V 9945 2688 50  0000 L CNN
-F 2 "" H 10100 2500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 10100 2500 50  0001 C CNN
 F 3 "~" H 10100 2500 50  0001 C CNN
 	1    9900 2500
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP2
 U 1 1 5C32289A
 P 9900 2600
-F 0 "TP?" V 9854 2788 50  0000 L CNN
+F 0 "TP2" V 9854 2788 50  0000 L CNN
 F 1 "TestPoint" V 9945 2788 50  0000 L CNN
-F 2 "" H 10100 2600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 10100 2600 50  0001 C CNN
 F 3 "~" H 10100 2600 50  0001 C CNN
 	1    9900 2600
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP3
 U 1 1 5C3228F3
 P 9900 2700
-F 0 "TP?" V 9854 2888 50  0000 L CNN
+F 0 "TP3" V 9854 2888 50  0000 L CNN
 F 1 "TestPoint" V 9945 2888 50  0000 L CNN
-F 2 "" H 10100 2700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 10100 2700 50  0001 C CNN
 F 3 "~" H 10100 2700 50  0001 C CNN
 	1    9900 2700
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP4
 U 1 1 5C322950
 P 9900 2800
-F 0 "TP?" V 9854 2988 50  0000 L CNN
+F 0 "TP4" V 9854 2988 50  0000 L CNN
 F 1 "TestPoint" V 9945 2988 50  0000 L CNN
-F 2 "" H 10100 2800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 10100 2800 50  0001 C CNN
 F 3 "~" H 10100 2800 50  0001 C CNN
 	1    9900 2800
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP5
 U 1 1 5C3229AF
 P 9900 2900
-F 0 "TP?" V 9854 3088 50  0000 L CNN
+F 0 "TP5" V 9854 3088 50  0000 L CNN
 F 1 "TestPoint" V 9945 3088 50  0000 L CNN
-F 2 "" H 10100 2900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 10100 2900 50  0001 C CNN
 F 3 "~" H 10100 2900 50  0001 C CNN
 	1    9900 2900
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP6
 U 1 1 5C322A0E
 P 9900 3000
-F 0 "TP?" V 9854 3188 50  0000 L CNN
+F 0 "TP6" V 9854 3188 50  0000 L CNN
 F 1 "TestPoint" V 9945 3188 50  0000 L CNN
-F 2 "" H 10100 3000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 10100 3000 50  0001 C CNN
 F 3 "~" H 10100 3000 50  0001 C CNN
 	1    9900 3000
 	0    1    1    0   
@@ -1068,4 +1068,15 @@ Wire Wire Line
 	2950 3250 2550 3250
 Text Label 2950 3250 2    50   ~ 0
 RFM_DIO2
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5C329FA0
+P 7700 2200
+F 0 "TP7" V 7654 2388 50  0000 L CNN
+F 1 "TestPoint" V 7745 2388 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 7900 2200 50  0001 C CNN
+F 3 "~" H 7900 2200 50  0001 C CNN
+	1    7700 2200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

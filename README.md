@@ -61,3 +61,9 @@ https://github.com/SevenW/embapps/tree/master/ArduinoRFM69
  - 31 - BCM6 - LED green
  - 32 - BCM12 - LED blue
 
+## Things to fix in next revision
+
+- Add protection resistor on DIO 2 -- it can be bidirectional.
+- Preferably resistors on all DIOs
+- Add current limiting resistor on one-wire supply pin -- the devices don't draw much current at all and it makes sense to protect the RPi's supply from whatever environment the one-wire sensors are in.
+ 

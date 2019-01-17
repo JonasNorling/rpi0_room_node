@@ -66,4 +66,7 @@ https://github.com/SevenW/embapps/tree/master/ArduinoRFM69
 - Add protection resistor on DIO 2 -- it can be bidirectional.
 - Preferably resistors on all DIOs
 - Add current limiting resistor on one-wire supply pin -- the devices don't draw much current at all and it makes sense to protect the RPi's supply from whatever environment the one-wire sensors are in.
- 
+
+- SMA connector footprint is too wide for my connector from Electrokit
+- RFM69 footprint is too wide
+- SMA sits in a bad position for a RPi3
